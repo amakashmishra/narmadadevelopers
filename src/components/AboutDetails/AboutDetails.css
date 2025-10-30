@@ -1,0 +1,222 @@
+/* Centered Heading Section */
+.heading-center {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .heading-center h1,
+  .heading-center p {
+    margin: 0 auto;
+  }
+
+  /* Center the main heading at the top */
+.heading-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .featured .box {
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* ======= ABOUT SECTION ======= */
+  .about {
+    /* margin-bottom: 80px; */
+  }
+  
+  .about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .about .left {
+    flex: 1;
+  }
+  
+  .about .right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about .heading {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .about .btn2 {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #0C2340;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .about .btn2:hover {
+    background: #218c54;
+  }
+  
+  /* ======= MORE INFO (Toggle Section) ======= */
+  .about .more-info {
+    margin-top: 25px;
+    background: #f4f4f4;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about .more-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .about .more-info ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about .more-info ul li {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  /* ======= IMAGE STYLING ======= */
+  .about .right img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ======= KEY FEATURES SECTION ======= */
+  .about h3 {
+    font-size: 18px;
+    color: #1c1c1c;
+    margin: 25px 0 10px;
+    border-bottom: 2px solid #0C2340;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .about ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about ul li {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 6px;
+    list-style-type: disc;
+  }
+  
+  /* ======= RESPONSIVE DESIGN ======= */
+  @media screen and (max-width: 1024px) {
+    .about .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about .left {
+      text-align: center;
+    }
+  
+    .about p {
+      padding: 0;
+      font-size: 15px;
+    }
+  
+    .about .more-info {
+      text-align: left;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about {
+      padding: 40px 20px;
+    }
+  
+    .about p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  
+    .about .right img {
+      margin-top: 30px;
+    }
+  
+    .about .more-info {
+      padding: 15px;
+    }
+  
+    .about .more-info ul li {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .about {
+      padding: 30px 15px;
+    }
+  
+    .about .btn2 {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .about p {
+      font-size: 13px;
+    }
+  
+    .about .right img {
+      margin-top: 20px;
+    }
+  
+    .about .container {
+      gap: 20px;
+      padding: 0 10px;
+    }
+  
+    .about .more-info ul li {
+      font-size: 13px;
+    }
+  
+    .about ul {
+      padding-left: 15px;
+      text-align: left;
+    }
+  
+    .about ul li {
+      font-size: 13px;
+    }
+  }
+  

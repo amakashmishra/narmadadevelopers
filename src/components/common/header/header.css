@@ -1,0 +1,122 @@
+/* Header Styles */
+header {
+  background-color: #fff;
+  height: 13vh;
+  box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
+  padding: 0px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+/* Logo - Default for larger screens */
+header img {
+  width: 105px; /* Increased size for desktop */
+  transition: width 0.3s ease;
+}
+
+/* Navigation Links */
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+header a:hover {
+  color: #0C2340;
+}
+
+/* Span Badge */
+header span {
+  padding: 0 6px;
+  background: #0C2340;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+
+/* Heading */
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+/* Toggle Button (Hidden by Default) */
+header .toggle {
+  display: none;
+}
+
+/* Toggle Button Styling */
+header .toggle button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #0C2340;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+header .toggle button:hover {
+  color: #0C2340;
+  transform: scale(1.1);
+}
+
+header .toggle button:focus {
+  outline: none;
+}
+
+header .toggle button i {
+  transition: transform 0.3s ease-in-out;
+}
+
+header .toggle button:hover i {
+  transform: rotate(180deg);
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+
+  /* Smaller Logo for Mobile */
+  header img {
+    width: 110px;
+    margin-top: 0px;
+  }
+
+  /* Hide Button & Navigation */
+  header .button {
+    display: none;
+  }
+
+  header .nav .flex {
+    display: none;
+  }
+
+  /* Show Toggle Button */
+  header .toggle {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    width: 55px;
+  }
+
+  /* Mobile Navigation */
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #0C2340;
+    padding: 15px;
+  }
+
+  header li a {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,86 @@
+/* Wrapper section styles */
+.featured {
+    padding: 30px 0;
+    background-color: #f4f7fb;
+    text-align: center;
+  }
+  
+  /* Heading styles for better alignment and spacing */
+  .featured h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1c1c1c;
+  }
+  
+  .featured p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Grid layout for cards */
+  .content.grid5 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual card box */
+  .featured .box {
+    background: #fff;
+    padding: 10px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(112, 121, 138, 0.18);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .featured .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Inside card styles */
+  .featured .box h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .featured .box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+  }
+  
+  /* Button */
+  .featured .box button {
+    background-color: #0C2340;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .featured .box button:hover {
+    background-color: #0C2340;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .content.grid5 {
+      justify-content: center;
+      gap: 16px;
+    }
+  
+    .featured .box {
+      width: 90%;
+      max-width: 250px;
+    }
+  }
+  

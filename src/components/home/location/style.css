@@ -1,0 +1,160 @@
+/* Global Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Location Section */
+.location {
+  padding: 60px 0;
+  width: 100%;
+}
+
+/* Grid Layout */
+.content.grid3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 15px;
+}
+
+/* Box Styling */
+.location .box {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 250px;
+  transition: transform 0.3s ease;
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.location .box:hover {
+  transform: scale(1.02);
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Image Styling */
+.location img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Overlay Styling - Centered Content */
+.location .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(15, 28, 47, 0.6);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.location .overlay h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.location .overlay .specs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.location label {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* Responsive Views */
+@media screen and (max-width: 1024px) {
+  .content.grid3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .location .box {
+    height: 220px;
+  }
+
+  .location .overlay h5 {
+    font-size: 18px;
+  }
+
+  .location label {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content.grid3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .location .box {
+    height: 200px;
+  }
+
+  .location .overlay {
+    padding: 15px;
+  }
+
+  .location .overlay h5 {
+    font-size: 16px;
+  }
+
+  .location label {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .location .box {
+    height: 180px;
+  }
+
+  .location .overlay {
+    padding: 10px;
+  }
+
+  .location .overlay h5 {
+    font-size: 14px;
+  }
+
+  .location label {
+    font-size: 11px;
+  }
+}
