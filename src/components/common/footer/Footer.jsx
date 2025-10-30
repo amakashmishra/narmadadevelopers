@@ -98,16 +98,16 @@ const Footer = () => {
             <h3>Contact Info</h3>
             <ul>
               <li>
-                <FaMapMarkerAlt /> &nbsp; Shop no.-24,New Vijaya Bhuvan Society, Dadiseth Road,S V Road,Malad(w),Mumbai-64
+                <FaMapMarkerAlt /> &nbsp; Off. No. 103, 1st Floor, Vrindavan Heights Building, Tilak Road, Panvel, Raigad, Maharashtra - 410206
               </li>
-              <li>
+              {/* <li>
                 <FaMapMarkerAlt /> &nbsp; Site Address - Plot No. 62, Plot No 4 at Deulwadi Karjat, Raigarh, 410201
-              </li>
+              </li> */}
               <li>
                 <FaEnvelope /> &nbsp; narmadadevelopers2023@gmail.com
               </li>
               <li>
-                <FaPhoneAlt /> &nbsp; +91 8087287499, 9819869006
+                <FaPhoneAlt /> &nbsp; +91 9408346346 / 9167331666
               </li>
             </ul>
           </div>
