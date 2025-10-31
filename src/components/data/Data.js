@@ -47,7 +47,7 @@ import bhk7 from '../../assets/Icons/Hall1.jpeg'
 import bhk8 from '../../assets/Icons/layout.jpeg'
 import bhk9 from '../../assets/Icons/parking.jpeg'
 import bhk10 from '../../assets/Icons/parking1.jpeg'
-import bhk11 from '../../assets/Icons/Banner2.jpeg'
+// import bhk11 from '../../assets/Icons/Banner2.jpeg'
 
 export const nav = [
   {
