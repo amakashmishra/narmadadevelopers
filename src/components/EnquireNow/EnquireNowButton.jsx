@@ -28,7 +28,7 @@ import './EnquireNowButton.css'
 
 const EnquireNowButton = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "918087287499"; // Indian number with country code
+    const phoneNumber = "919408346346"; // Indian number with country code
     const message = `Hi, I am interested in your property. Please share more details.`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

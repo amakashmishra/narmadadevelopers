@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../common/Heading";
 import "./video.css";
 import Logo from "../../assets/Icons/logo.png";
-import brochure from "../../assets/Images/KRISHNA HERITAGE BROCHURE FINAL.pdf";
+import brochure from "../../assets/Icons/brochure print.pdf";
 
 const Video = () => {
     return (

@@ -18,9 +18,9 @@ const About = () => {
 
         <div className='container flex mtop'>
           <div className='left row'>
-            <Heading title='Krishna Heritage Pvt Ltd' subtitle='Building Foundations, Creating Futures' />
+            <Heading title='Narmada Developers Pvt Ltd' subtitle='Building Foundations, Creating Futures' />
 
-            <p>Krishna Heritage Pvt Ltd is a dynamic and ambitious real estate development company, established to transform the landscape of Karjat. With a focus on innovation, quality, and customer satisfaction, we aim to deliver exceptional living and working spaces.</p>
+            <p>Narmada Developers Pvt Ltd is a dynamic and ambitious real estate development company, established to transform the landscape of Karjat. With a focus on innovation, quality, and customer satisfaction, we aim to deliver exceptional living and working spaces.</p>
             <p>To create vibrant, sustainable, and inspiring communities, exceeding customer expectations through transparency, integrity, and excellence.</p>
 
             <h3>Key Features</h3>

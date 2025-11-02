@@ -13,7 +13,7 @@ const AboutDetails = () => {
               title="Welcome to Narmada Developers"
               subtitle="Discover premium builder flats designed for comfort, style, and modern living"
             />
-            <p>Located at NANA MASTER NAGAR, one of the most peaceful locations in Karjat.It is near to Karjat Railway Station and a well-developed area. Surrounded by green open spaces and natural tranquility. You will enjoy an active lifestyle</p>
+            <p>Located at one of the most peaceful locations in Karjat.It is near to Karjat Railway Station and a well-developed area. Surrounded by green open spaces and natural tranquility. You will enjoy an active lifestyle</p>
             {/* <p>Surrounded by green open spaces and natural tranquility. You will enjoy an active lifestyle.</p> */}
 
             <h3>Key Features</h3>

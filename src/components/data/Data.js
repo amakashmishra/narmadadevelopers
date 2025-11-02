@@ -1,5 +1,5 @@
 import raiway from '../../assets/Images/raiway.jpg';
-import expressway from '../../assets/Images/Mumbai-Pune-Expressway.jpg'
+// import expressway from '../../assets/Images/Mumbai-Pune-Expressway.jpg'
 import airport from '../../assets/Images/airport.jpg'
 import reliance from '../../assets/Images/reliance.jpg'
 import dmart from '../../assets/Images/d-mart.jpg'
@@ -31,10 +31,11 @@ import fir6 from '../../assets/Images/fir5.jpg'
 import fir7 from '../../assets/Images/fir6.jpeg'
 
 import sch from '../../assets/Images/sch.webp'
-import sch1 from '../../assets/Images/sch1.jpg'
+import sch1 from '../../assets/Icons/1680193897274_KNIFE_Home_Slider4-1.jpg'
 import sch2 from '../../assets/Images/sch2.webp'
 import sch3 from '../../assets/Images/sch3.jpg'
 import sch4 from '../../assets/Images/sch4.webp'
+import sch5 from '../../assets/Icons/cng-adani-canopy-1000x1000.webp'
 
 import bhk from '../../assets/Icons/Banner.jpeg'
 import bhk1 from '../../assets/Icons/1bhk.jpeg'
@@ -80,12 +81,12 @@ export const featured = [
   {
     cover: sch,
     name: "School",
-    total: "5 Min",
+    total: "2 Min",
   },
   {
     cover: sch1,
-    name: "Hotel",
-    total: "5 Min",
+    name: "Restaurant ",
+    total: "2 Min",
   },
   {
     cover: sch2,
@@ -95,12 +96,17 @@ export const featured = [
   {
     cover: dmart,
     name: "DMart",
-    total: "5 Min",
+    total: "10 Min",
   },
-  {
-    cover: expressway,
-    name: "Mumbai Pune Expressway",
-    total: "15 Min",
+  // {
+  //   cover: expressway,
+  //   name: "Mumbai Pune Expressway",
+  //   total: "15 Min",
+  // },
+   {
+    cover: sch5,
+    name: "CNG Petrol Pump",
+    total: "3 Min",
   },
   {
     cover: sch3,
@@ -120,7 +126,7 @@ export const featured = [
   {
     cover: reliance,
     name: "Reliance Petrol Pump",
-    total: "3 Min",
+    total: "5 Min",
   },
 ]
 export const list = [
