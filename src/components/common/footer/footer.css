@@ -1,6 +1,6 @@
 /* ======= FOOTER CONTACT SECTION ======= */
 .footerContact {
-  background-color: #0C2340;
+  background-color: #603814;
   padding: 40px 0;
   color: #fff;
   text-align: center;
@@ -33,14 +33,14 @@
   font-size: 16px;
   border-radius: 5px;
   background: #fff;
-  color: #0C2340;
+  color: #603814;
   border: none;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .footerContact .btn5:hover {
-  background: #0C2340;
+  background: #603814;
   color: #fff;
 }
 
@@ -109,7 +109,7 @@ footer .input button {
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
-  background: #0C2340;
+  background: #603814;
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -119,7 +119,7 @@ footer .input button {
 }
 
 footer .input button:hover {
-  background: #0C2340;
+  background: #603814;
 }
 
 /* ======= FOOTER LINKS ======= */
@@ -178,7 +178,7 @@ footer .social-icons {
 footer .social-icons a {
   color: #fff;
   font-size: 18px;
-  background: #0C2340;
+  background: #603814;
   padding: 10px;
   border-radius: 50%;
   display: inline-flex;
@@ -188,7 +188,7 @@ footer .social-icons a {
 }
 
 footer .social-icons a:hover {
-  background: #0C2340;
+  background: #603814;
   transform: scale(1.1);
 }
 
@@ -252,7 +252,7 @@ footer .social-icons a:hover {
   font-size: 20px;
   color: #1c1c1c;
   margin: 25px 0 10px;
-  border-bottom: 2px solid #0C2340;
+  border-bottom: 2px solid #603814;
   display: inline-block;
   padding-bottom: 5px;
 }

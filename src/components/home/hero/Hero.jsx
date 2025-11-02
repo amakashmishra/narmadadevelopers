@@ -1,16 +1,14 @@
-import React from "react";
-// import Heading from "../../common/Heading";`
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./hero.css";
 
-import Images1 from "../../../assets/Icons/Banner2.jpeg";
-import Images2 from "../../../assets/Icons/Banner1.jpeg";
+import Images1 from "../../../assets/Icons/ChatGPT Image Oct 31, 2025, 09_43_40 AM.png";
+// import Images2 from "../../../assets/Icons/Banner1.jpeg";
 import Images3 from "../../../assets/Icons/Banner.jpeg";
 
-const images = [Images1, Images2, Images3];
+const images = [Images1, Images3];
 
 const Hero = () => {
   return (
@@ -32,17 +30,6 @@ const Hero = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-
-      {/* Content Over the Slider */}
-      {/* <div className="hero-content">
-        <Heading
-          title="Search Your Next Home"
-          subtitle="Find new & featured property located in your local city."
-        />
-        <a href={brochure} className="hero-btn" download>
-          Download Brochure
-        </a>
-      </div> */}
     </section>
   );
 };

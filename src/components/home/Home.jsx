@@ -16,9 +16,9 @@ const Home = () => {
     <>
       <Hero />
       <AboutDetails />
-      <Configuration />
-      <Recent />
+      {/* <Configuration /> */}
       <Featured />
+      <Recent />
       <Awards />
       <Location />
       {/* <Team /> */}

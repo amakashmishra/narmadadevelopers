@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 200px;
 }
 
 .about .left {
@@ -39,7 +39,7 @@
   padding: 12px 24px;
   font-size: 16px;
   border-radius: 5px;
-  background: #0C2340;
+  background: #603814;
   color: white;
   border: none;
   cursor: pointer;
@@ -47,7 +47,7 @@
 }
 
 .about .btn2:hover {
-  background: #0C2340;
+  background: #603814;
 }
 
 /* ======= MORE INFO (Toggle Section) ======= */
@@ -88,9 +88,9 @@
 /* ======= KEY FEATURES SECTION ======= */
 .about h3 {
   font-size: 18px;
-  color: #0C2340;
+  color: #603814;
   margin: 25px 0 10px;
-  border-bottom: 2px solid #0C2340;
+  border-bottom: 2px solid #603814;
   display: inline-block;
   padding-bottom: 5px;
 }
