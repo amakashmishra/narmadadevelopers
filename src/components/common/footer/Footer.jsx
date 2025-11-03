@@ -29,8 +29,7 @@ const Footer = () => {
           <p className="label">MAHARERA QR Code</p>
 
           <p>
-            This project has been registered via MahaRERA registration number
-            <strong> P52000079893 </strong>and the details are available on the website{" "}
+            This project has been registered via MahaRERA registration and the details are available on the website{" "}
             <a
               href="https://maharera.mahaonline.gov.in"
               target="_blank"
@@ -38,8 +37,7 @@ const Footer = () => {
             >
               https://maharera.mahaonline.gov.in
             </a>{" "}
-            under registered projects. Site Address: Plot No. 62, Plot No 4 at
-            Deulwadi Karjat, Raigarh, 410201
+            under registered projects. Site Address: Off. No. 103, 1st Floor, Vrindavan Heights Building, Tilak Road, Panvel, Raigad, Maharashtra - 410206
           </p>
 
           <h3>DISCLAIMER</h3>

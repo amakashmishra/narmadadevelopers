@@ -23,7 +23,7 @@ import dmart from '../../assets/Images/d-mart.jpg'
 
 import loc8 from '../../assets/Images/loc8.jpg'
 
-import fir1 from '../../assets/Images/fir.jpg'
+// import fir1 from '../../assets/Images/fir.jpg'
 import fir2 from '../../assets/Images/fir1.jpeg'
 import fir4 from '../../assets/Images/fir3.webp'
 import fir5 from '../../assets/Images/fir4.jpg'
@@ -186,14 +186,14 @@ export const awards = [
 ];
 
 export const location = [
-  {
-    id: 1,
-    name: "Fire Security",
-    Villas: "Fire alarms and extinguishers",
-    Apartments: "Sprinklers and fire panels",
-    Offices: "Fire system with exits",
-    cover: fir1,
-  },
+  // {
+  //   id: 1,
+  //   name: "Fire Security",
+  //   Villas: "Fire alarms and extinguishers",
+  //   Apartments: "Sprinklers and fire panels",
+  //   Offices: "Fire system with exits",
+  //   cover: fir1,
+  // },
   {
     id: 2,
     name: "Covered Car Parking",
