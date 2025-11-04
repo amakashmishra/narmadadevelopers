@@ -37,7 +37,7 @@ const Footer = () => {
             >
               https://maharera.mahaonline.gov.in
             </a>{" "}
-            under registered projects. Site Address: Off. No. 103, 1st Floor, Vrindavan Heights Building, Tilak Road, Panvel, Raigad, Maharashtra - 410206
+            under registered projects. Site Address: Narmada Hill View, Survey No. 22/2, Behind Forest Office, Karjat.
           </p>
 
           <h3>DISCLAIMER</h3>
