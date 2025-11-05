@@ -13,7 +13,7 @@ import {
   FaEnvelope,
   FaPhoneAlt
 } from "react-icons/fa";
-import qrcode from "../../../assets/Images/quarecode.jpg";
+import qrcode from "../../../assets/Icons/QR.jpeg";
 import MAHARERA from "../../../assets/Images/maharera-logo-EA64458FDF-seeklogo.com.png";
 
 const Footer = () => {
