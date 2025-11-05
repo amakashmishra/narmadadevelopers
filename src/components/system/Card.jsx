@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import plan from '../../assets/Icons/Hall.jpeg';
 import plan1 from '../../assets/Icons/1bhk.jpeg';
 import plan2 from '../../assets/Icons/2bhk.jpg';
 import plan3 from '../../assets/Images/MAGAZA-PROJELERI.webp';
@@ -7,6 +8,7 @@ const Card = () => {
     const [selectedImage, setSelectedImage] = useState(null);
 
     const configurations = [
+        { type: '1 RK', area: 'Available', image: plan },
         { type: '1 BHK', area: 'Available', image: plan1 },
         { type: '2 BHK', area: 'Available', image: plan2 },
         { type: 'Commercial Shops', area: 'Limited', image: plan3 },

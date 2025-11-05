@@ -8,7 +8,7 @@ import Recent from "./recent/Recent"
 // import Team from "./team/Team"
 import Video from "../video/video"
 import Information from "../Imfomation/Information"
-// import Configuration from "../system/Configuration"
+import Configuration from "../system/Configuration"
 import AboutDetails from "../AboutDetails/AboutDetails"
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <Hero />
       <AboutDetails />
-      {/* <Configuration /> */}
+      <Configuration />
       <Featured />
       <Recent />
       <Awards />
