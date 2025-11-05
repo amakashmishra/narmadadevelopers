@@ -29,7 +29,8 @@ const Footer = () => {
           <p className="label">MAHARERA QR Code</p>
 
           <p>
-            This project has been registered via MahaRERA registration and the details are available on the website{" "}
+            This project has been registered via MahaRERA registration number
+            <strong> P52000050960 </strong>and the details are available on the website{" "}
             <a
               href="https://maharera.mahaonline.gov.in"
               target="_blank"
