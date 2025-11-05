@@ -21,14 +21,14 @@ import dmart from '../../assets/Images/d-mart.jpg'
 // import flat10 from '../../assets/Images/flat10.jpg'
 
 
-import loc8 from '../../assets/Images/loc8.jpg'
+// import loc8 from '../../assets/Images/loc8.jpg'
 
 // import fir1 from '../../assets/Images/fir.jpg'
-import fir2 from '../../assets/Images/fir1.jpeg'
-import fir4 from '../../assets/Images/fir3.webp'
-import fir5 from '../../assets/Images/fir4.jpg'
+// import fir2 from '../../assets/Images/fir1.jpeg'
+// import fir4 from '../../assets/Images/fir3.webp'
+// import fir5 from '../../assets/Images/fir4.jpg'
 import fir6 from '../../assets/Images/fir5.jpg'
-import fir7 from '../../assets/Images/fir6.jpeg'
+// import fir7 from '../../assets/Images/fir6.jpeg'
 
 import sch from '../../assets/Images/sch.webp'
 import sch1 from '../../assets/Icons/1680193897274_KNIFE_Home_Slider4-1.jpg'
@@ -194,38 +194,38 @@ export const location = [
   //   Offices: "Fire system with exits",
   //   cover: fir1,
   // },
-  {
-    id: 2,
-    name: "Covered Car Parking",
-    Villas: "Private parking space",
-    Apartments: "Allotted parking spots",
-    Offices: "Staff and visitor parking",
-    cover: fir2,
-  },
-  {
-    id: 4,
-    name: "Power Back Up",
-    Villas: "Inverter provision",
-    Apartments: "Backup for common areas",
-    Offices: "Full power backup",
-    cover: fir4,
-  },
-  {
-    id: 5,
-    name: "24 X 7 Water Supply",
-    Villas: "Overhead tank system",
-    Apartments: "Dual water source",
-    Offices: "Auto water supply",
-    cover: loc8,
-  },
-  {
-    id: 6,
-    name: "Rain Water Harvesting",
-    Villas: "Water collection pits",
-    Apartments: "Central system setup",
-    Offices: "Recharge setup in place",
-    cover: fir5,
-  },
+  // {
+  //   id: 2,
+  //   name: "Covered Car Parking",
+  //   Villas: "Private parking space",
+  //   Apartments: "Allotted parking spots",
+  //   Offices: "Staff and visitor parking",
+  //   cover: fir2,
+  // },
+  // {
+  //   id: 4,
+  //   name: "Power Back Up",
+  //   Villas: "Inverter provision",
+  //   Apartments: "Backup for common areas",
+  //   Offices: "Full power backup",
+  //   cover: fir4,
+  // },
+  // {
+  //   id: 5,
+  //   name: "24 X 7 Water Supply",
+  //   Villas: "Overhead tank system",
+  //   Apartments: "Dual water source",
+  //   Offices: "Auto water supply",
+  //   cover: loc8,
+  // },
+  // {
+  //   id: 6,
+  //   name: "Rain Water Harvesting",
+  //   Villas: "Water collection pits",
+  //   Apartments: "Central system setup",
+  //   Offices: "Recharge setup in place",
+  //   cover: fir5,
+  // },
   {
     id: 7,
     name: "24 X 7 Security",
@@ -234,14 +234,14 @@ export const location = [
     Offices: "Secure entry system",
     cover: fir6,
   },
-  {
-    id: 8,
-    name: "Lift",
-    Villas: "Optional private lift",
-    Apartments: "Backup-enabled lifts",
-    Offices: "Commercial elevators",
-    cover: fir7,
-  },
+  // {
+  //   id: 8,
+  //   name: "Lift",
+  //   Villas: "Optional private lift",
+  //   Apartments: "Backup-enabled lifts",
+  //   Offices: "Commercial elevators",
+  //   cover: fir7,
+  // },
 ];
 
 
